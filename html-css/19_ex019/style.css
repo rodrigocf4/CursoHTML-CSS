@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 /* 
-Em HTML é id = em CSS é #
-Em HTML é class = em CSS é .
+Em HTML é id = em CSS é # (só pode 1 elemento)
+Em HTML é class = em CSS é . (pode vários elementos)
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
@@ -27,4 +27,21 @@ h1#principal {
 h2 {
     color: rgb(57, 110, 77);
 
+}
+
+.basico {
+    color: rgb(30, 35, 73);
+    font-weight: bold;
+}
+
+.intermediario {
+    color: rgb(91, 92, 45);
+}
+
+.avancado {
+    color: rgb(73, 30, 30);
+}
+
+.destaque {
+    background-color: rgba(202, 202, 35, 0.582);
 }
