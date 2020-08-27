@@ -94,6 +94,7 @@ nav > a:hover {
     transition-duration: 0.2s;
 }
 
+
 main {
     background-color: white;
     padding: 20px;
@@ -166,7 +167,7 @@ main img.pequena {
 }
 
 div.video {
-    background-color: var(--cor2);
+    background-color: #3ddc859c;
     margin: 0px -20px;
     padding: 20px;
     padding-bottom: 56.5%;
